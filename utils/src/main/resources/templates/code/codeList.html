@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="zh">
+<head>
+<meta charset="UTF-8"/>
+<title>Insert title here</title>
+</head>
+<body>
+	<span th:each="obj : ${list}"> <span th:text="${obj.name}" />:<span
+		th:text="${obj.code}" /><br />
+	</span>
+</body>
+</html>
