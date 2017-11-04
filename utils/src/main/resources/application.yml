@@ -35,6 +35,6 @@ spring:
       mode: HTML5
 #mybatis配置
 mybatis:
-  type-aliases-package: com.sun.utils.user.model,com.sun.utils.code.model
+  type-aliases-package: com.sun.utils.model
   mapper-locations: classpath:mappers/*Mapper.xml  
     

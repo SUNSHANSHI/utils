@@ -3,7 +3,7 @@ package com.sun.utils.user.service;
 import java.util.List;
 
 
-import com.sun.utils.user.model.UserModel;
+import com.sun.utils.model.UserModel;
 
 public interface UserService {
 	/**
